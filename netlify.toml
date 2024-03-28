@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/dapi/
+from = "/dapi/"
 to = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.11610&lng=79.07060&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING/:splat"
 status = 200
