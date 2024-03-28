@@ -22,7 +22,7 @@ const Body = () => {
 
     const fetchData = async() => {
         const url = "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.193391&lng=79.082636&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-        const data = await fetch(`/thing-proxy/${url}`);
+        const data = await fetch(url);
         const json = await data.json();
         
         setlistOfRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
