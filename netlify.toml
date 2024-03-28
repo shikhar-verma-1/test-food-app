@@ -1,5 +1,5 @@
 [[redirects]]
-
-from = "/api/*"
-to = "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.193391&lng=79.082636&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING/:splat 200"
-status = 200
+  force = true
+  from = "/scripts/x.jsx"
+  status = 200
+  to = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.193391&lng=79.082636&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING/scripts/x.jsx"
